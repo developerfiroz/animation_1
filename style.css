@@ -1,0 +1,302 @@
+*{
+  margin: 0; padding: 0;
+  
+}
+body{
+  background-color: gainsboro;
+}
+.container{
+  width: 960px;
+  margin: 0 auto;
+ 
+}
+.social {
+  display: inline;
+ 
+  word-spacing: .5em;
+  font-size: 20px;
+  
+}
+i{
+  margin-top: 10px;
+  transition: all 0.3s linear;
+}
+i:hover{
+  cursor: pointer;
+  transform: scale(1.4);
+}
+ul {
+  list-style-type: none;
+  margin-top: 15px;
+  padding: 0;
+  overflow: hidden;
+  border-bottom:5px solid orangered;
+  border-radius: 5px;
+  background: linear-gradient(to right, #009fff, #ec2f4b);
+}
+
+li {
+  float: left;
+}
+/* ul li:nth-child(1n+6) {
+  float:right;
+} */
+.right li {
+  float:right;
+  margin: 0 auto;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .5s ease-in;
+}
+li{
+  border-left: 2px solid #0364a0;
+}
+li{
+  border-right: 2px solid #37769c;
+}
+li a:hover {
+  background-color: #F4FC25;
+  color: gray;
+}
+
+.iteams{
+	position: absolute;
+	background-color: orangered;
+	width: 150px;
+	padding-left: 0;
+	display: none;
+}
+.iteams a:hover{
+	color: orangered;
+	background-color: gray;
+}
+
+.dropdown:hover .iteams{
+ display:block;
+}
+
+
+
+.gradient{
+  width: 100%;
+  margin-top: 10px;
+  height: 530px;
+  background: radial-gradient(#ff5d71, #EB3349);
+  position: relative;
+}
+.gradient:hover{
+  background-image: radial-gradient(circle, red 25% , green 20%);
+}
+.bg_1{
+  float: left;
+  width: 150px;
+  height: 150px;
+  /* border: 1px solid gray; */
+  border-radius: 15px;
+}
+
+.first3{
+  top:20px;
+  left: 240px;
+  position: absolute;
+}
+
+.div_1{
+  background: linear-gradient(to right, #40e0d0, #ff8c00, #ff0080); 
+}
+.div_2{
+  margin: 0px 15px;
+  background: linear-gradient(to right, #00c3ff, #ffff1c);
+}
+.div_3{
+  background: linear-gradient(to right, #0099f7, #f11712);
+}
+.second3{
+  top:190px;
+  left: 240px;
+  position: absolute;
+}
+.thired3{
+  top:360px;
+  left: 240px;
+  position: absolute;
+}
+
+.gradient_2{
+  width: 100%;
+  margin-top: 10px;
+  height: 530px;
+  background: radial-gradient(circle, #00ccff, #7303c0, #03b8b8, #051dfa);
+  position: relative;
+}
+.gradient_2:hover{
+  background: linear-gradient(to right, #fc354c, #0abfbc);}
+.bg_2{
+  float: left;
+  width: 150px;
+  height: 150px;
+  /* border: 1px solid gray; */
+  border-radius: 15px;
+}
+
+.first3{
+  top:20px;
+  left: 240px;
+  position: absolute;
+  
+}
+
+.thgd_1{
+  position: absolute;
+  right: 50px;
+  top:-10px;
+  animation-name: firoz_1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes firoz_1{
+  0%{position: absolute;
+    right: 50px;
+    top:-10px;}
+  100%{position: absolute;
+    right: -680px;
+    top:-10px;}
+}
+.thgd_2{
+  position: absolute;
+  left: 530px;
+  top:-10px;
+  animation-name: firoz_2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes firoz_2{
+  0%{ position: absolute;
+    left: 530px;
+    top:-10px;}
+  100%{position: absolute;
+    left: -200px;
+    top:-10px;}
+}
+
+.second3{
+  top:190px;
+  left: 240px;
+  position: absolute;
+}
+.thgd_3{
+  position: absolute;
+  top:-50px;
+  left: 150px;
+  animation-name: firoz;
+  animation-duration: .1s;
+  animation-iteration-count: infinite;
+}
+.thgd_3:hover{
+  animation: none;
+}
+@keyframes firoz{
+  0%{transform: rotate(0deg);}
+  25%{transform: rotate(90deg);}
+  50% {transform: rotate(180deg);}
+  75%{transform: rotate(270deg);}
+  100%{transform: rotate(360deg);}
+}
+ 
+.thired3{
+  top:360px;
+  left: 240px;
+  position: absolute;
+}
+.thgd_4{
+  position: absolute;
+  right: 50px;
+  top:-50px;
+  animation-name: firoz_4;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes firoz_4{
+  0%{position: absolute;
+    right: 50px;
+    top:-50px;}
+  100%{position: absolute;
+    top:-220px;
+    right: -300px;}
+}
+
+
+.thgd_5{
+  position: absolute;
+  left: 530px;
+  top:-50px;
+  animation-name: firoz_5;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes firoz_5{
+  0%{ position: absolute;
+    left: 530px;
+    top:-50px;}
+  100%{position: absolute;
+    top:-220px;
+    left: 150px;}
+}
+
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background: rgb(49, 48, 48);
+  color: white;
+}
+.f-item{
+  width: 300px;
+  margin-top: 50px;
+  height: 200px ;
+}
+.f-item h4{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.f-item p{
+  line-height: 25px;
+}
+.f-item .fsm{
+  list-style: none;
+}
+.f-item .fsm {
+  margin: 10px 0;
+}
+.f-item .fsm  .lia{
+  padding: 8px 0px;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  color: #0EAB9D;
+}
+footer{
+  background: rgb(32, 31, 31);
+  text-align: center;
+  padding: 20px;
+  color: beige;
+}
+footer h4{
+  margin-bottom: 10px;
+}
+footer h4 a{
+  text-decoration: none;
+  color: #0EAB9D;
+}
